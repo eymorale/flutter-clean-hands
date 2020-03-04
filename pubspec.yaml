@@ -1,5 +1,5 @@
 name: clean_hands
-description: A new Flutter project.
+description: A flutter application demonstrating local notifications based on geolocation/geofencing.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
