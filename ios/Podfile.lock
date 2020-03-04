@@ -1,0 +1,55 @@
+PODS:
+  - background_fetch (0.5.4):
+    - Flutter
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - Flutter (1.0.0)
+  - flutter_background_geolocation (1.7.0):
+    - CocoaLumberjack (~> 3.6.0)
+    - Flutter
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - geocoder (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - background_fetch (from `.symlinks/plugins/background_fetch/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_background_geolocation (from `.symlinks/plugins/flutter_background_geolocation/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - geocoder (from `.symlinks/plugins/geocoder/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  background_fetch:
+    :path: ".symlinks/plugins/background_fetch/ios"
+  Flutter:
+    :path: Flutter
+  flutter_background_geolocation:
+    :path: ".symlinks/plugins/flutter_background_geolocation/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  geocoder:
+    :path: ".symlinks/plugins/geocoder/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  background_fetch: c0d7c541f8495527ed7f167eb9ee2eeab0790703
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_background_geolocation: 5046073371cc210a1d128cfbc560533a51130293
+  flutter_local_notifications: 9e4738ce2471c5af910d961a6b7eadcf57c50186
+  geocoder: 3cfab70531a0b367e917bafe82df4c30f6d4c45a
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.9.0
