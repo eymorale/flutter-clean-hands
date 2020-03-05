@@ -102,7 +102,9 @@ class _MyHomePageState extends State<MyHomePage> {
     print(response.errorMessage);
   }
 
-  // add background geolocation geofence
+  // add background geolocation geofence - will get overwritten everytime this is called since we are using a single identifier
+  // this is the desired behavior for now, since they can only set one home location and we want the user to get notifications
+  // for only that location
   void _addGeofence() {
     bg.BackgroundGeolocation.addGeofence(bg.Geofence(
       identifier: 'HOME',
